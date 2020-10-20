@@ -11,8 +11,8 @@ With Docusaurus you help us create and maintain websites where we can display ou
 
 * ## Preparation of the environment. 🧰
 
-[] Verify that you have installed on your computer <a href="https://nodejs.org/es/" target="_blank">**Node.js**</a>,
-[] Verify that you have installed on your computer<a href = "https: / /classic.yarnpkg.com/en/docs/install/#windows-stable "target =" _ blank ">**Yarn**</a>,
-[] Verify that you have installed on your computer<a href =" https://www.npmjs.com/get -npm "target =" _ blank ">**Node Package Manager (NPM)**</a>, 
-[] Verify that you have installed on your computer<a href="https://git-scm.com/downloads" target="_blank">**Gitbash**</a>(optional depending on the operating system you use) and finallly, 
-[] Verify that you have installed on your computer a source code **editor** (in our case we will use <a href = "https://code.visualstudio.com/" target = "_ blank "> ** Visual Studio Code ** </a>)
+- [] Verify that you have installed on your computer <a href="https://nodejs.org/es/" target="_blank">**Node.js**</a>,
+- [] Verify that you have installed on your computer<a href = "https: / /classic.yarnpkg.com/en/docs/install/#windows-stable "target =" _ blank ">**Yarn**</a>,
+- [] Verify that you have installed on your computer<a href =" https://www.npmjs.com/get -npm "target =" _ blank ">**Node Package Manager (NPM)**</a>, 
+- [] Verify that you have installed on your computer<a href="https://git-scm.com/downloads" target="_blank">**Gitbash**</a>(optional depending on the operating system you use) and finallly, 
+- [] Verify that you have installed on your computer a source code **editor** (in our case we will use <a href = "https://code.visualstudio.com/" target = "_ blank "> ** Visual Studio Code ** </a>)
