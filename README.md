@@ -60,7 +60,7 @@ Basically, all the content that we put in this file will be viewed by the users 
 As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make any color changes to our website. This action can be applied within the path **src /css/custom.css**. It is important to note that the color values must be added in hexadecimal (HEX) format. What does hexadecimal colors mean? Color codes are ways of representing the colors we see everyday in a format that a computer can interpret and display. Commonly used in websites and other software applications, there are a variety of formats, including Hex color codes, RGB and HSL values, and HTML color names, amongst others. The most popular are Hex color codes; three byte hexadecimal numbers (meaning they consist of six digits), with each byte, or pair of characters in the Hex code, representing the intensity of red, green and blue in the color respectively. 
 
 | Color Name        | HEX Color           | RGB Color                  |
-| ----------------- |:-------------------:| --------------------------:|
+| ----------------- | ------------------- | -------------------------- |
 | White             | #FFFFFF             |rgb(255, 255, 255)          |
 | Silver            | #C0C0C0             |rgb(192, 192, 192)          |
 | Gray              | #808080             |rgb(128, 128, 128)          |
@@ -78,7 +78,7 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 | Fuchsia           | #FF00FF             |rgb(255, 0, 255)            |
 | Purple            | #800080             |rgb(128, 0, 128)            |
 
-# Table 1. List of the most Common HTML Color Codes
+### Table 1. List of the most Common HTML Color Codes
 
 
 
