@@ -80,5 +80,6 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 
 ### Table 1. List of the most Common HTML Color Codes
 
+![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
 
 
