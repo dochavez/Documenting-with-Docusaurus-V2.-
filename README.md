@@ -2,6 +2,8 @@
 ## Installation and Configuration for Beginners 🚀 <br>
 ## Autor: **Danny Chávez**<br>
 
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 * ## Abstract. 📔
 
 This repository was created in order to make available a tutorial that is useful for all those people who are lovers of Information Technologies. The tutorial provides the steps to work with Docusaurus version 2. Addressing topics from the preparation of the necessary requirements to proceed with the installation. Then we will address aspects of the project description, identification of the main components. And finally we will conclude with the deployment of our work locally to create a github page.
@@ -82,10 +84,72 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 
 ![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
 
-*  ## Navigation bar (navbar). 🗄️
+*  ## Navigation bar && Footer. 🗄️
 
-The navigation bar known as ** navbar ** allows you to add links to other pages within the same site. For this, we must provide a path, although it can also be a URL that takes us to an external link. To modify the navigation bar, we must locate ourselves within the file called ** docusaurus.config.js **
+The navigation bar known as **navbar** allows you to add links to other pages within the same site. For this, we must provide a path, although it can also be a URL that takes us to an external link. To modify the navigation bar, we must locate ourselves within the file called **docusaurus.config.js**.Once we are in said file, we locate the corresponding section where all the sections that we wish to incorporate in the navigation bar must be declared.
 
-Once we are in said file, we locate the corresponding section where all the sections that we wish to incorporate in the navigation bar must be declared.
+On the other hand, like the navigation bar, the **footer** component can be modified. Which is inside the **docusaurus.config.js** file. Links can be added that lead us to other information of interest within the site or they can be external links. Finally, we can say that we can also add text related to copyright at the bottom of the page. This can be found in the section ```copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,```
+inside the file **docusaurus.config.js**.
+
+![navbar and footer](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Navbar%20%26%20Footer.jpg)
+
+* ## Organizing our Documents. 📚
+
+If we want to add a section so that our documents appear organized by categories, we must add a special section for them. Therefore, all of them will be presented as an organized structure, allowing easy navigation between them. If we want to add new sections we must locate ourselves within the **sidebar.js** file. One of the great features that Docusaurus provides is that we can provide a wide variety of documents that contain different information topics. These documents are stored within the folder named docs. To create documents we must create files that contain the extension **.md**. Once we create our document, Docusaurus will show them instantly. The structure that we must follow to create a document is:
+
+It is very important to keep in mind that every document has a unique **id**. By default, a document id is the name of the document (without the extension) relative to the root docs directory. For example, we will find the next structure in our project like
+
+```
+website # Root directory of your site
+└── docs
+   ├── vacation.md
+   └── guide
+      └── local.md
+      └── international.md
+```
+where, vacation.md **id** is **greeting** and guide/local.md **id** is **guide/hello** and lastly, guide/internacional.md **id** is **guide/international**
+
+**Why the ID´s are important?** Because the ID's are what we will use to identify each document that we will use to keep our information organized. Which will be shown to users on our site in the documents section and in the **sidebar**.However, it is important to emphasize that IDs can also be named in a different way according to what the user put into their structure. For example, if guide/local.md's content is defined as below, its final **id** is **guide/part1**.
+
+```
+---
+id: part1
+title: Guide to organize your trip to Disney World
+---
+INPUT YOUR INFORMATION IN THIS LINE
+```
+There are other **fields** that we can add within our .md file, among which we can highlight the following:
+
+ - **id:** A unique document id. If this field is not present, the document's id will default to its file name (without the extension).
+ - **title:** The title of your document. If this field is not present, the document's title will default to its id.
+ - **hide_title:** Whether to hide the title at the top of the doc. By default it is false.
+ - **hide_table_of_contents:** Whether to hide the table of contents to the right. By default it is false.
+ - **sidebar_label:** The text shown in the document sidebar and in the next/previous button for this document. If this field is not present, the document's sidebar_label will default to its title.
+- **custom_edit_url:** The URL for editing this document. If this field is not present, the document's edit URL will fall back to editUrl from options fields passed to docusaurus-plugin-content-docs.
+- **keywords:** Keywords meta tag for the document page, for search engines.
+- **description:** The description of your document, which will become the <meta name="description" content="..."/> and <meta property="og:description" content="..."/> in <head>, used by search engines. If this field is not present, it will default to the first line of the contents.
+- **image:** Cover or thumbnail image that will be used when displaying the link to your post.
+  
+---
+id: disney
+title: Membership to theme parks
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Markdown :)
+custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
+description: Earn free membership for one year.
+keywords:
+  - disney
+  - world
+  - parks
+image: https://i.imgur.com/mErPwqL.png
+---
+
+
+
+
+
+*  ## Controlando las versiones de nuestro proyecto. 🧬
+
 
 
