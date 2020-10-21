@@ -2,7 +2,7 @@
 ## Installation and Configuration for Beginners 🚀 <br>
 ## Autor: **Danny Chávez**<br>
 
-[![Build Status](https://www.npmjs.com/package/docusaurus)]
+[![Build Status](https://twitter.com/docusaurus/photo)]
 
 * ## Abstract. 📔
 
