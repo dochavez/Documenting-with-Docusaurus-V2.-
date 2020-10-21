@@ -4,7 +4,8 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/docusaurus.svg?style=social&label=Follow)](https://twitter.com/docusaurus)
 [![npm](https://img.shields.io/npm/v/npm?style=plastic)](https://github.com/npm)
-[![npm](https://img.shields.io/badge/yarn-download-blue)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+[![yarn](https://img.shields.io/badge/yarn-download-blue)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+[![gitbash](https://img.shields.io/badge/gitbash-download-blue)](https://img.shields.io/badge/gitbash-download-blue)
 
 
 * ## Abstract. 📔
@@ -17,10 +18,10 @@ With Docusaurus you help us create and maintain websites where we can display ou
 * ## Preparation of the environment. 🧰
 
 - [x]  Verify that you have installed on your computer <a href="https://nodejs.org/es/" target="_blank">**Node.js**</a>
-- [x]  Verify that you have installed on your computer <a href ="https://classic.yarnpkg.com/en/docs/install/#windows-stable "target="_ blank">**Yarn**</a>
-- [x]  Verify that you have installed on your computer <a href ="https://www.npmjs.com/get -npm "target="_ blank">**Node Package Manager (NPM)**</a>, 
+- [x]  Verify that you have installed on your computer <a href ="https://classic.yarnpkg.com/en/docs/install/#windows-stable "target="_blank">**Yarn**</a>
+- [x]  Verify that you have installed on your computer <a href ="https://www.npmjs.com/get -npm "target="_blank">**Node Package Manager (NPM)**</a>, 
 - [x]  Verify that you have installed on your computer <a href="https://git-scm.com/downloads" target="_blank">**Gitbash**</a>(optional depending on the operating system you use) and finallly, 
-- [x]  Verify that you have installed on your computer a source code **editor** (in our case we will use <a href ="https://code.visualstudio.com/" target="_ blank ">** Visual Studio Code**</a>)
+- [x]  Verify that you have installed on your computer a source code **editor** (in our case we will use <a href ="https://code.visualstudio.com/" target="_blank">**Visual Studio Code**</a>)
 
 * ## Installation of Docusaurus version 2. 🔧
 
