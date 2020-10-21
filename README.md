@@ -2,7 +2,7 @@
 ## Installation and Configuration for Beginners 🚀 <br>
 ## Autor: **Danny Chávez**<br>
 
-[![Build Status](https://twitter.com/docusaurus/photo)]
+[![Build Status](https://twitter.com/docusaurus/photo)](https://twitter.com/docusaurus)
 
 * ## Abstract. 📔
 
