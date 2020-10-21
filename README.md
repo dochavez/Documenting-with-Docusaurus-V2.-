@@ -4,6 +4,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/docusaurus.svg?style=social&label=Follow)](https://twitter.com/docusaurus)
 [![npm](https://img.shields.io/npm/v/npm?style=plastic)](https://github.com/npm)
+[![gitbash](https://img.shields.io/badge/gitbash-download-blue)(https://git-scm.com/downloads)
 
 * ## Abstract. 📔
 
