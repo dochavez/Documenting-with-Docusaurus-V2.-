@@ -68,8 +68,8 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 | White             | #FFFFFF             |rgb(255, 255, 255)          |
 | Silver            | #C0C0C0             |rgb(192, 192, 192)          |
 | Gray              | #808080             |rgb(128, 128, 128)          |
-            | Black | #000000             |rgb(0, 0, 0)                |
-| ![#f03c15] Red    | #FF0000             |rgb(255, 0, 0)              |
+| Black             | #000000             |rgb(0, 0, 0)                |
+| Red               | #FF0000             |rgb(255, 0, 0)              |
 | Maroon            | #800000             |rgb(128, 0, 0)              |
 | Yellow            | #FFFFFF             |rgb(255, 255, 0)            |
 | Olive             | #C0C0C0             |rgb(128, 128, 0)            |
