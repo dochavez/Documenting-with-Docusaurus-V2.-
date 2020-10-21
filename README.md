@@ -5,7 +5,11 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/docusaurus.svg?style=social&label=Follow)](https://twitter.com/docusaurus)
 [![npm](https://img.shields.io/npm/v/npm?style=plastic)](https://github.com/npm)
 [![yarn](https://img.shields.io/badge/yarn-download-blue)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-[![gitbash](https://img.shields.io/badge/gitbash-download-blue)](https://img.shields.io/badge/gitbash-download-blue)
+[![gitbash](https://img.shields.io/badge/gitbash-download-blue)](https://git-scm.com/downloads)
+[![nodejs](https://img.shields.io/badge/nodejs-download-blue)](https://nodejs.org/en/)
+[![visualstudio](https://img.shields.io/badge/visual%20studio%20code-download-blue)](https://code.visualstudio.com/)
+[![Docusaurus](https://img.shields.io/badge/docusaurus-download-blue)](https://github.com/facebook/docusaurus)
+[![Github]]https://img.shields.io/github/followers/facebook/docusaurus?style=plastic)(https://github.com/facebook/docusaurus)
 
 
 * ## Abstract. 📔
