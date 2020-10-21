@@ -130,6 +130,7 @@ There are other **fields** that we can add within our .md file, among which we c
 - **description:** The description of your document, which will become the <meta name="description" content="..."/> and <meta property="og:description" content="..."/> in <head>, used by search engines. If this field is not present, it will default to the first line of the contents.
 - **image:** Cover or thumbnail image that will be used when displaying the link to your post.
   
+```
 ---
 id: disney
 title: Membership to theme parks
@@ -144,7 +145,7 @@ keywords:
   - parks
 image: https://i.imgur.com/mErPwqL.png
 ---
-
+```
 
 
 
