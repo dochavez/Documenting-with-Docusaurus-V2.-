@@ -82,4 +82,10 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 
 ![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
 
+*  ## Navigation bar (navbar). 🗄️
+
+The navigation bar known as ** navbar ** allows you to add links to other pages within the same site. For this, we must provide a path, although it can also be a URL that takes us to an external link. To modify the navigation bar, we must locate ourselves within the file called ** docusaurus.config.js **
+
+Once we are in said file, we locate the corresponding section where all the sections that we wish to incorporate in the navigation bar must be declared.
+
 
