@@ -120,13 +120,13 @@ INPUT YOUR INFORMATION IN THIS LINE
 ```
 There are other **fields** that we can add within our .md file, among which we can highlight the following:
 
- - **id:** A unique document id. If this field is not present, the document's id will default to its file name (without the extension).
- - **title:** The title of your document. If this field is not present, the document's title will default to its id.
- - **hide_title:** Whether to hide the title at the top of the doc. By default it is false.
- - **hide_table_of_contents:** Whether to hide the table of contents to the right. By default it is false.
- - **sidebar_label:** The text shown in the document sidebar and in the next/previous button for this document. If this field is not present, the document's sidebar_label will default to its title.
-- **custom_edit_url:** The URL for editing this document. If this field is not present, the document's edit URL will fall back to editUrl from options fields passed to docusaurus-plugin-content-docs.
-- **keywords:** Keywords meta tag for the document page, for search engines.
+- **id:** A unique document id. If this field is not present, the document's id will default to its file name (without the extension).<br>
+- **title:** The title of your document. If this field is not present, the document's title will default to its id.<br>
+- **hide_title:** Whether to hide the title at the top of the doc. By default it is false.<br>
+- **hide_table_of_contents:** Whether to hide the table of contents to the right. By default it is false.<br>
+- **sidebar_label:** The text shown in the document sidebar and in the next/previous button for this document. If this field is not present, the document's sidebar_label will default to its title.<br>
+- **custom_edit_url:** The URL for editing this document. If this field is not present, the document's edit URL will fall back to editUrl from options fields passed to docusaurus-plugin-content-docs.<br>
+- **keywords:** Keywords meta tag for the document page, for search engines.<br>
 - **description:** The description of your document, which will become the <meta name="description" content="..."/> and <meta property="og:description" content="..."/> in <head>, used by search engines. If this field is not present, it will default to the first line of the contents.
 - **image:** Cover or thumbnail image that will be used when displaying the link to your post.
   
