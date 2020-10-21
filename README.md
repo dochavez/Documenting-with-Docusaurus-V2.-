@@ -2,7 +2,7 @@
 ## Installation and Configuration for Beginners 🚀 <br>
 ## Autor: **Danny Chávez**<br>
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://www.npmjs.com/package/docusaurus)]
 
 * ## Abstract. 📔
 
