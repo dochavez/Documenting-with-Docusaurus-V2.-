@@ -241,10 +241,13 @@ Before moving your entire project to a **github** repository and create a **gith
 
 where, "**GITHUB_USERNAME**" is the username that you use directly on Github. Therefore, you should replace it. In case you are using the windows console (cmd) you can execute the following instruction:
 
-```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy ```
 
 And if you are using **powershell** you can execute the following instruction:
-`` `cmd / C 'set" GIT_USER = <GITHUB_USERNAME> "&& yarn deploy'```
+```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy' ```
+
+And lastly, if you are using **windows** you can execute the following instruction:
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
 
 **IMPORTANT NOTE**⚠️ : before transferring your files locally to your Github repository you must add certain information in the **docusaurus.config.js** file. in the parameters related to **organizationName**, ** projectName **, **url**, **baseUrl**
 
@@ -258,3 +261,15 @@ module.exports = {
   // ...
 };
 ```
+Where:
+   **organizationName**: The GitHub user or organization that owns the repository.
+   **projectName**: The name of the GitHub repository.
+   **url**: URL of the user or organization page of your GitHub page. Generally it is: "**https: //_username_.github.io.**"
+   **baseUrl**: base URL for your project. For projects hosted on GitHub pages, follow the format "**/projectName/**".
+
+* ## Hurrah...! We finished the tutorial.😊😊😊😊😊
+
+Congratulations! 🎊, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: 
+
+Thank you very much for reading this guide and I hope it will be very useful for your future projects. Animate, Learn and Share.
+
