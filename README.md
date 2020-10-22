@@ -157,7 +157,7 @@ image: https://i.imgur.com/mErPwqL.png
 * ## Controlling the versions of our project. 🧬
 
 Version control is important to keep our work up to date. That means that many changes or updates can happen every day. Therefore, it is important to keep a good control of the versions that are presented to us or in which we are working. It is important to keep in mind that the updates regarding version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
-```"version": "docusaurus doc:version"```, then we can execute the following command ```npm run version <version>```where "<version>" is the new version number that will be added both for the control of our documents and their structure. That is, our **sidebar**
+```"version": "docusaurus doc:version"```, then we can execute the following command ```npm run version <version>``` where **"<version>"** is the new version number that will be added both for the control of our documents and their structure. That is, our **sidebar**
    
 ```
 # Directory structure applying version control. Reference: https://v2.docusaurus.io/docs/versioning
@@ -186,5 +186,9 @@ website
 
 ```
    
+* ## Creating Blogs with Docusaurus.📰
 
+If all of the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a Blog section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**.
+
+![creacion de blog](https://github.com/dochavez/DocusaurusV2/blob/main/creacion%20de%20blogs.jpg)
 
