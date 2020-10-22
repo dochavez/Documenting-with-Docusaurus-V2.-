@@ -110,7 +110,7 @@ On the other hand, like the navigation bar, the **footer** component can be modi
 inside the file **docusaurus.config.js**.
 
 ![navbar and footer](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Navbar%20%26%20Footer.jpg)
-###### Figure 7. Identification of the navigation bar and footer on the main page of our site.
+###### Figure 8. Identification of the navigation bar and footer on the main page of our site.
 
 * ## Organizing our Documents. 📚
 
@@ -166,10 +166,10 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 ```
 ![creating our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
-###### Figure 7. Creating the file called doc4 for the section of our Documents.
+###### Figure 9. Creating the file called doc4 for the section of our Documents.
 
 ![visualizing](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Visualizing%20Blogs.jpg)
-###### Figure 8. Viewing our created file.
+###### Figure 10. Viewing our created file.
 
 * ## Controlling the versions of our project. 🧬
 
@@ -228,10 +228,10 @@ This is my first blog on Docusaurus 2.
 ```
 ![editing our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Editing%20our%20Blog.jpg)
 
-###### Figure 9. Editing the parameters for our blog.
+###### Figure 11. Editing the parameters for our blog.
 
 ![our blog in web](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/visualizing%20our%20blog%20in%20the%20web%20browser.jpg)
-###### Figure 10. Viewing our blog in the browser
+###### Figure 12. Viewing our blog in the browser
 
 * ## From local to the world. 🌎
 
@@ -254,12 +254,12 @@ Where:<br>
 **baseUrl**: base URL for your project. For projects hosted on GitHub pages, follow the format "**/projectName/**".<br>
 
 ![final settings](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/final%20settings.jpg)
-###### Figure 11. Adjustment of configuration parameters to build our file locally
+###### Figure 13. Adjustment of configuration parameters to build our file locally
 
 Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files locally on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
 
 ![execution of our build](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/build_execution.jpg)
-###### Figure 12. Creating our directory called "build"
+###### Figure 14. Creating our directory called "build"
 
 ```GIT_USER=<GITHUB_USERNAME> yarn deploy```
 
@@ -274,14 +274,14 @@ And lastly, if you are using **windows** you can execute the following instructi
 ```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
 
 ![final result](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/live%20_site.jpg)
-###### Figure 13. Final result of passing our files locally to our repository.
+###### Figure 15. Final result of passing our files locally to our repository.
 
 * ## Hurrah...! We finished the tutorial.😊😊😊😊😊
 
-Congratulations! 🎊, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/
+Congratulations! 🎉🎊🎉, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/
 
 Thank you very much for reading this guide and I hope it will be very useful for your future projects. Animate, Learn and Share.
 
 * ## License Notice. 📜
-This repository and all its content is licensed by MIT. You can access to read it in this <a href="https://github.com/dochavez/DocusaurusV2/blob/main/LICENSE"> link </a>
+This repository and all its content is licensed by MIT. You can access to read it in this <a href="https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/LICENSE">LINK</a>
 
