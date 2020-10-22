@@ -226,3 +226,35 @@ Welcome to my first virtual trip to the theme parks of Disney World. This is a n
 This is my first blog on Docusaurus 2.
 
 ```
+![editing our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Editing%20our%20Blog.jpg)
+
+###### Figure 9. Editing the parameters for our blog.
+
+![our blog in web](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/visualizing%20our%20blog%20in%20the%20web%20browser.jpg)
+###### Figure 10. Viewing our blog in the browser
+
+* ## From local to the world. 🌎
+
+Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files locally on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
+
+```GIT_USER=<GITHUB_USERNAME> yarn deploy```
+
+where, "**GITHUB_USERNAME**" is the username that you use directly on Github. Therefore, you should replace it. In case you are using the windows console (cmd) you can execute the following instruction:
+
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
+
+And if you are using **powershell** you can execute the following instruction:
+`` `cmd / C 'set" GIT_USER = <GITHUB_USERNAME> "&& yarn deploy'```
+
+**IMPORTANT NOTE**⚠️ : before transferring your files locally to your Github repository you must add certain information in the **docusaurus.config.js** file. in the parameters related to **organizationName**, ** projectName **, **url**, **baseUrl**
+
+```
+module.exports = {
+  // ...
+  url: 'https://endiliey.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'endiliey.github.io',
+  organizationName: 'endiliey',
+  // ...
+};
+```
