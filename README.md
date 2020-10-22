@@ -190,5 +190,5 @@ website
 
 If all of the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a Blog section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**.
 
-![creacion de blog](https://github.com/dochavez/DocusaurusV2/blob/main/creacion%20de%20blogs.jpg)
+![creacion de blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
 
