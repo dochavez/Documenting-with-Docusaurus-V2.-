@@ -21,10 +21,10 @@ With Docusaurus you help us create and maintain websites where we can display ou
 * ## Preparation of the environment. 🧰
 
 - [x]  Verify that you have installed on your computer <a href="https://nodejs.org/es/" target="_blank">**Node.js**</a>. To do that, we must go to our terminal and type: **node -v**. The previous command will give us the version that we have installed.
-- [x]  Verify that you have installed on your computer <a href="https://www.npmjs.com/get -npm "target="_blank">**Node Package Manager (NPM)**</a>, Likewise, in the previous step we are going to execute the command npm -v and it will provide us with the version that we have installed. In case it is necessary to update the NPM packages, we can do it as follows: if we are working on windows we will execute the command **npm install -g npm**, and if we are working on MAC we can execute the command **sudo npm install -g npm**
-- [x]  Verify that you have installed on your computer <a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable "target="_blank">**Yarn**</a> 
+- [x]  Verify that you have installed on your computer <a href="https://www.npmjs.com/get-npm "target="_blank">**Node Package Manager (NPM)**</a>, Likewise, in the previous step we are going to execute the command npm -v and it will provide us with the version that we have installed. In case it is necessary to update the NPM packages, we can do it as follows: if we are working on windows we will execute the command **npm install -g npm**, and if we are working on MAC we can execute the command **sudo npm install -g npm**
+- [x]  Verify that you have installed on your computer <a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable" target="_blank">**Yarn**</a> 
 - [x]  Verify that you have installed on your computer <a href="https://git-scm.com/downloads" target="_blank">**Gitbash**</a>(optional depending on the operating system you use) and finallly, 
-- [x]  Verify that you have installed on your computer a source code **editor** (in our case we will use <a href="https://code.visualstudio.com/"target="_blank">**Visual Studio Code**</a>)
+- [x]  Verify that you have installed on your computer a source code **editor** (in our case we will use <a href="https://code.visualstudio.com/" target="_blank">**Visual Studio Code**</a>)
 
 ![verificacion](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/verificacion%20de%20version.jpg)
 ###### Figure 1. Checking our environment using Gitbash.
@@ -97,7 +97,7 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 | Fuchsia           | #FF00FF             |rgb(255, 0, 255)            |
 | Purple            | #800080             |rgb(128, 0, 128)            |
 
-### Table 1. List of the most Common HTML Color Codes
+##### Table 1. List of the most Common HTML Color Codes
 
 ![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
 ###### Figure 7. Changing colors using hex codes in custom.css file.
