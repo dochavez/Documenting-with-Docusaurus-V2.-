@@ -235,20 +235,6 @@ This is my first blog on Docusaurus 2.
 
 * ## From local to the world. 🌎
 
-Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files locally on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
-
-```GIT_USER=<GITHUB_USERNAME> yarn deploy```
-
-where, "**GITHUB_USERNAME**" is the username that you use directly on Github. Therefore, you should replace it. In case you are using the windows console (cmd) you can execute the following instruction:
-
-```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy ```
-
-And if you are using **powershell** you can execute the following instruction:
-```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy' ```
-
-And lastly, if you are using **windows** you can execute the following instruction:
-```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
-
 **IMPORTANT NOTE**⚠️ : before transferring your files locally to your Github repository you must add certain information in the **docusaurus.config.js** file. in the parameters related to **organizationName**, ** projectName **, **url**, **baseUrl**
 
 ```
@@ -267,9 +253,35 @@ Where:<br>
 **url**: URL of the user or organization page of your GitHub page. Generally it is: "**https: //_username_.github.io.**"<br>
 **baseUrl**: base URL for your project. For projects hosted on GitHub pages, follow the format "**/projectName/**".<br>
 
+![final settings](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/final%20settings.jpg)
+###### Figure 11. Adjustment of configuration parameters to build our file locally
+
+Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files locally on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
+
+![execution of our build](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/build_execution.jpg)
+###### Figure 12. Creating our directory called "build"
+
+```GIT_USER=<GITHUB_USERNAME> yarn deploy```
+
+where, "**GITHUB_USERNAME**" is the username that you use directly on Github. Therefore, you should replace it. In case you are using the windows console (cmd) you can execute the following instruction:
+
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy ```
+
+And if you are using **powershell** you can execute the following instruction:
+```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy' ```
+
+And lastly, if you are using **windows** you can execute the following instruction:
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
+
+![final result](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/live%20_site.jpg)
+###### Figure 13. Final result of passing our files locally to our repository.
+
 * ## Hurrah...! We finished the tutorial.😊😊😊😊😊
 
-Congratulations! 🎊, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: 
+Congratulations! 🎊, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/
 
 Thank you very much for reading this guide and I hope it will be very useful for your future projects. Animate, Learn and Share.
+
+* ## License Notice. 📜
+This repository and all its content is licensed by MIT. You can access to read it in this <a href="https://github.com/dochavez/DocusaurusV2/blob/main/LICENSE"> link </a>
 
