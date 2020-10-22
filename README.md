@@ -20,11 +20,17 @@ With Docusaurus you help us create and maintain websites where we can display ou
 
 * ## Preparation of the environment. 🧰
 
-- [x]  Verify that you have installed on your computer <a href="https://nodejs.org/es/" target="_blank">**Node.js**</a>
-- [x]  Verify that you have installed on your computer <a href ="https://classic.yarnpkg.com/en/docs/install/#windows-stable "target="_blank">**Yarn**</a>
-- [x]  Verify that you have installed on your computer <a href ="https://www.npmjs.com/get -npm "target="_blank">**Node Package Manager (NPM)**</a>, 
+- [x]  Verify that you have installed on your computer <a href="https://nodejs.org/es/" target="_blank">**Node.js**</a>. To do that, we must go to our terminal and type: **node -v**. The previous command will give us the version that we have installed.
+- [x]  Verify that you have installed on your computer <a href="https://www.npmjs.com/get -npm "target="_blank">**Node Package Manager (NPM)**</a>, Likewise, in the previous step we are going to execute the command npm -v and it will provide us with the version that we have installed. In case it is necessary to update the NPM packages, we can do it as follows: if we are working on windows we will execute the command **npm install -g npm**, and if we are working on MAC we can execute the command **sudo npm install -g npm**
+- [x]  Verify that you have installed on your computer <a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable "target="_blank">**Yarn**</a> 
 - [x]  Verify that you have installed on your computer <a href="https://git-scm.com/downloads" target="_blank">**Gitbash**</a>(optional depending on the operating system you use) and finallly, 
-- [x]  Verify that you have installed on your computer a source code **editor** (in our case we will use <a href ="https://code.visualstudio.com/" target="_blank">**Visual Studio Code**</a>)
+- [x]  Verify that you have installed on your computer a source code **editor** (in our case we will use <a href="https://code.visualstudio.com/"target="_blank">**Visual Studio Code**</a>)
+
+![verificacion](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/verificacion%20de%20version.jpg)
+###### Figure 1. Checking our environment using Gitbash.
+
+![verificacion en windows](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/verificacion%20en%20windows.jpg)
+###### Figure 2. Checking our environment in windows.
 
 * ## Installation of Docusaurus version 2. 🔧
 
@@ -33,14 +39,17 @@ With Docusaurus you help us create and maintain websites where we can display ou
 3. Execute the **npx @docusaurus/init@next init [name] "[template]"** instruction, where [name] should be replaced by whatever name we want and [template] by classic to use the page for default to be uploaded to the website. Docusaurus has the availability of using various templates such as: facebook, bootstrap and so on.
 
 ![installation](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/installation.jpg)
+###### Figure 3. Downloading the dependencies for the installation.
 
 * ## Deploying the Application. 📦
 
-5. To run Docusaurus we use the following command from the terminal: ** npm run start ** and our project will be displayed in our web browser with the address **http://localhost:3000**. If you want, you can also run this other command from the terminal: **yarn run start**. In either case, the two commands performing the same operation of displaying our website in the browser that we have by default. Although if you wish you can also use any other browser.
+5. To run Docusaurus we use the following command from the terminal: **npm run start** and our project will be displayed in our web browser with the address **http://localhost:3000**. If you want, you can also run this other command from the terminal: **yarn run start**. In either case, the two commands performing the same operation of displaying our website in the browser that we have by default. Although if you wish you can also use any other browser.
 
 ![command_terminal](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Command%20from%20the%20terminal.jpg)
+###### Figure 4. Running our application in the terminal.
 
 ![Deploy the website](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/deploy.jpg)
+###### Figure 5. Deployment of our application in our browser through localhost.
 
 * ## Analyzing the structure of the installed project.📜
 
@@ -57,6 +66,7 @@ The **/blog/** folder: contains the blog's Markdown files, which are used to dis
 Docusaurus allows us great flexibility and adaptation to our needs. That is why in the file named **docusaurus.config.js** you can modify the ** title ** and ** tagline ** directives by putting any name you want. In the case of **favicon** you must add an image with a **.ico** extension. A good resource you can use to create these types of files is by accessing the <a href="https://favicon.io/favicon-converter/" target="_blank">favicon.io</a> website. Once you have the new file, you should copy and replace it inside the **static\img** folder. You can now test the changes by starting the project with the **npm run start** command or you can use **yarn run start** from the terminal. Remember to be inside the folder of the directory that you created in step **number 1** of this tutorial. Go to **http://localhost:3000** to see the changes made.
 
 ![title_tagline_favicon](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/title_tagline_favicon.jpg)
+###### Figure 6. Modifying our title, tagline and favicon of our main page.
 
 * ## What is the index.js file for?🏠
 
@@ -90,6 +100,7 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 ### Table 1. List of the most Common HTML Color Codes
 
 ![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
+###### Figure 7. Changing colors using hex codes in custom.css file.
 
 *  ## Navigation bar && Footer. 🗄️
 
@@ -99,6 +110,7 @@ On the other hand, like the navigation bar, the **footer** component can be modi
 inside the file **docusaurus.config.js**.
 
 ![navbar and footer](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Navbar%20%26%20Footer.jpg)
+###### Figure 7. Identification of the navigation bar and footer on the main page of our site.
 
 * ## Organizing our Documents. 📚
 
@@ -191,4 +203,5 @@ website
 If all of the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a Blog section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**.
 
 ![creacion de blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
+###### Figure 7. Creating the file called doc4 for the section of our Blog
 
