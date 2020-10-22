@@ -154,10 +154,37 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 ```
 
+* ## Controlling the versions of our project. 🧬
 
+Version control is important to keep our work up to date. That means that many changes or updates can happen every day. Therefore, it is important to keep a good control of the versions that are presented to us or in which we are working. It is important to keep in mind that the updates regarding version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
+```"version": "docusaurus doc:version"```, then we can execute the following command ```npm run version <version>```where "<version>" is the new version number that will be added both for the control of our documents and their structure. That is, our **sidebar**
+   
+```
+# Directory structure applying version control. Reference: https://v2.docusaurus.io/docs/versioning
 
+website
+├── sidebars.json        
+├── docs                 
+│   ├── foo
+│   │   └── bar.md       
+│   └── hello.md         
+├── versions.json        
+├── versioned_docs
+│   ├── version-1.1.0
+│   │   ├── foo
+│   │   │   └── bar.md   
+│   │   └── hello.md
+│   └── version-1.0.0
+│       ├── foo
+│       │   └── bar.md   
+│       └── hello.md
+├── versioned_sidebars
+│   ├── version-1.1.0-sidebars.json
+│   └── version-1.0.0-sidebars.json
+├── docusaurus.config.js
+└── package.json
 
-*  ## Controlando las versiones de nuestro proyecto. 🧬
-
+```
+   
 
 
