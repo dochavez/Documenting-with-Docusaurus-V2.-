@@ -261,11 +261,11 @@ module.exports = {
   // ...
 };
 ```
-Where:
-   **organizationName**: The GitHub user or organization that owns the repository.
-   **projectName**: The name of the GitHub repository.
-   **url**: URL of the user or organization page of your GitHub page. Generally it is: "**https: //_username_.github.io.**"
-   **baseUrl**: base URL for your project. For projects hosted on GitHub pages, follow the format "**/projectName/**".
+Where:<br>
+**organizationName**: The GitHub user or organization that owns the repository.<br>
+**projectName**: The name of the GitHub repository.<br>
+**url**: URL of the user or organization page of your GitHub page. Generally it is: "**https: //_username_.github.io.**"<br>
+**baseUrl**: base URL for your project. For projects hosted on GitHub pages, follow the format "**/projectName/**".<br>
 
 * ## Hurrah...! We finished the tutorial.😊😊😊😊😊
 
