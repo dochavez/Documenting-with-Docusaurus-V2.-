@@ -63,7 +63,7 @@ The **/blog/** folder: contains the blog's Markdown files, which are used to dis
 
 * ## Time to customize our site.📜
 
-Docusaurus allows us great flexibility and adaptation to our needs. That is why in the file named **docusaurus.config.js** you can modify the ** title ** and ** tagline ** directives by putting any name you want. In the case of **favicon** you must add an image with a **.ico** extension. A good resource you can use to create these types of files is by accessing the <a href="https://favicon.io/favicon-converter/" target="_blank">favicon.io</a> website. Once you have the new file, you should copy and replace it inside the **static\img** folder. You can now test the changes by starting the project with the **npm run start** command or you can use **yarn run start** from the terminal. Remember to be inside the folder of the directory that you created in step **number 1** of this tutorial. Go to **http://localhost:3000** to see the changes made.
+Docusaurus allows us great flexibility and adaptation to our needs. That is why in the file named **docusaurus.config.js** you can modify the **title** and **tagline** directives by putting any name you want. In the case of **favicon** you must add an image with a **.ico** extension. A good resource you can use to create these types of files is by accessing the <a href="https://favicon.io/favicon-converter/" target="_blank">favicon.io</a> website. Once you have the new file, you should copy and replace it inside the **static\img** folder. You can now test the changes by starting the project with the **npm run start** command or you can use **yarn run start** from the terminal. Remember to be inside the folder of the directory that you created in step **number 1** of this tutorial. Go to **http://localhost:3000** to see the changes made.
 
 ![title_tagline_favicon](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/title_tagline_favicon.jpg)
 ###### Figure 6. Modifying our title, tagline and favicon of our main page.
@@ -165,6 +165,11 @@ keywords:
 image: https://i.imgur.com/mErPwqL.png
 ---
 ```
+![creating our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
+###### Figure 7. Creating the file called doc4 for the section of our Documents.
+
+![visualizing](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Visualizing%20Blogs.jpg)
+###### Figure 8. Viewing our created file.
 
 * ## Controlling the versions of our project. 🧬
 
@@ -200,8 +205,24 @@ website
    
 * ## Creating Blogs with Docusaurus.📰
 
-If all of the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a Blog section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**.
+If all of the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a **Blog** section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**. For example: **/blog/2020-10-05-virtual-disney-world.md**
 
-![creacion de blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
-###### Figure 7. Creating the file called doc4 for the section of our Blog
+```
+---
+title: My trip to Virtual Disney World
+author: Danny Chavez
+author_title: Virtual Boy
+author_url: https://github.com/JoelMarcey
+author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+tags: [hello, docusaurus-v2]
+description: This is my first virtual Disney World.
+image: https://i.imgur.com/mErPwqL.png
+hide_table_of_contents: false
+---
+Welcome to my first virtual trip to the theme parks of Disney World. This is a new way of making magic come to your home through the use of virtual application glasses. The experience has been unique because you can interact with your favorite characters.
 
+<!--truncate-->
+
+This is my first blog on Docusaurus 2.
+
+```
