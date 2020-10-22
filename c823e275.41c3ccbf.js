@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{80:function(s){s.exports=JSON.parse('{"allTagsPath":"/Documenting-with-Docusaurus-V2.-/blog/tags","slug":"theme-parks","name":"theme parks","count":1,"permalink":"/Documenting-with-Docusaurus-V2.-/blog/tags/theme-parks"}')}}]);
