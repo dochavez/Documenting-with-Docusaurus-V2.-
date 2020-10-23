@@ -165,6 +165,13 @@ keywords:
 image: https://i.imgur.com/mErPwqL.png
 ---
 ```
+#### PRO-TIP📢: 
+
+If you don't know how to create files with the extension **.md** on the website called <a href="https://dillinger.io/" target="_blank">**Dillinger**</a> you can create this type of file online. Best of all, once you have all your content ready, you can download it to your computer locally and then just add it inside the **/docs** folder of your project. That way you can create a lot of content easily and quickly.
+
+Another way to create **.md** files is to copy one of the files found inside the **/docs** folder, place it in another path to edit it both in name and content, and then place it inside the folder **/docs**.
+
+
 ![creating our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
 ###### Figure 9. Creating the file called doc4 for the section of our Documents.
 
