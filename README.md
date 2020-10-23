@@ -51,15 +51,15 @@ With Docusaurus you help us create and maintain websites where we can display ou
 ![Deploy the website](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/deploy.jpg)
 ###### Figure 5. Deployment of our application in our browser through localhost.
 
-* ## Analyzing the structure of the installed project.📜<br>
+* ## Analyzing the structure of the installed project.📜
 
-The **/blog/** folder: contains the blog's Markdown files, which are used to display different types of content presented by different users.<br>
-The **/docs/** folder: contains the Markdown files for the documents section. <br>
-The **/src/** folder: contains source files with **.js** extension and style sheets (CSS). It is important to mention that any file that is within the path **/src/pages** will be converted within the web page.<br>
-The **/static/** folder: it is nothing more than a Static Directory. Any content within here will be copied to the root of the final build directory. Which will be used to display our website on the internet.<br>
-The **/docusaurus.config.js** file: is a configuration file that contains the complete configuration of the site.<br> 
-The **/package.json** file: It is a React application. You can install and use any npm package you want on them.<br> 
-The **/sidebar.js** file: used by the documentation to specify the order of the documents in the sidebar. <br>
+The **/blog/** folder: contains the blog's Markdown files, which are used to display different types of content presented by different users. for
+• The **/docs/** folder: contains the Markdown files for the documents section. <br>
+• The **/src/** folder: contains source files with **.js** extension and style sheets (CSS). It is important to mention that any file that is within the path **/src/pages** will be converted within the web page. for
+• The **/static/** folder: it is nothing more than a Static Directory. Any content within here will be copied to the root of the final build directory. Which will be used to display our website on the internet. for
+• The **/docusaurus.config.js** file: is a configuration file that contains the complete configuration of the site. for
+• The **/package.json** file: It is a React application. You can install and use any npm package you want on them. for
+• The **/sidebar.js** file: used by the documentation to specify the order of the documents in the sidebar. <br>
 
 * ## Time to customize our site.📜
 
@@ -165,6 +165,13 @@ keywords:
 image: https://i.imgur.com/mErPwqL.png
 ---
 ```
+#### PRO-TIP📢: 
+
+If you don't know how to create files with the extension **.md** on the website called <a href="https://dillinger.io/" target="_blank">**Dillinger**</a> you can create this type of file online. Best of all, once you have all your content ready, you can download it to your computer locally and then just add it inside the **/docs** folder of your project. That way you can create a lot of content easily and quickly.
+
+Another way to create **.md** files is to copy one of the files found inside the **/docs** folder, place it in another path to edit it both in name and content, and then place it inside the folder **/docs**.
+
+
 ![creating our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
 ###### Figure 9. Creating the file called doc4 for the section of our Documents.
 
@@ -284,3 +291,4 @@ Thank you very much for reading this guide and I hope it will be very useful for
 
 * ## License Notice. 📜
 This repository and all its content is licensed by MIT. You can access to read it in this <a href="https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/LICENSE">LINK</a>
+
