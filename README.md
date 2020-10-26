@@ -13,10 +13,9 @@
 
 * ## Abstract. 📔
 
-This repository was created in order to make available a tutorial that is useful for all those people who are lovers of Information Technologies. The tutorial provides the steps to work with Docusaurus version 2. Addressing topics from the preparation of the necessary requirements to proceed with the installation. Then we will address aspects of the project description, identification of the main components. And finally we will conclude with the deployment of our work locally to create a github page.
+This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page.
 
-Documenting is a way of showing what is done so that other people can learn, modify, create, design and share. Although it is important to mention that documenting can be a complicated task. Which can trigger a project to reach its full potential. But thanks to Docusaurus our task can be greatly simplified.
-With Docusaurus you help us create and maintain websites where we can display our documentation. Thanks to the implementation of React.js, we can have support for blogs, pages with custom designs with very elegant and dynamic styles.
+Documenting is a way of showing what is done so that other people can  learn, change, create, design and share. Although it is important to  mention that documenting can be a complicated task. Which can trigger a  project to reach its full potential. But thanks to Docusaurus our task  can be simplified. With Docusaurus you help us create and maintain websites where we can  display our documentation. Thanks to the implementation of React.js, we  can have support for blogs, pages with custom designs with very elegant  and dynamic styles.
 
 * ## Preparation of the environment. 🧰
 
@@ -51,15 +50,15 @@ With Docusaurus you help us create and maintain websites where we can display ou
 ![Deploy the website](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/deploy.jpg)
 ###### Figure 5. Deployment of our application in our browser through localhost.
 
-* ## Analyzing the structure of the installed project.📜<br>
+* ## Analyzing the structure of the installed project.📜
 
-The **/blog/** folder: contains the blog's Markdown files, which are used to display different types of content presented by different users.<br>
-The **/docs/** folder: contains the Markdown files for the documents section. <br>
-The **/src/** folder: contains source files with **.js** extension and style sheets (CSS). It is important to mention that any file that is within the path **/src/pages** will be converted within the web page.<br>
-The **/static/** folder: it is nothing more than a Static Directory. Any content within here will be copied to the root of the final build directory. Which will be used to display our website on the internet.<br>
-The **/docusaurus.config.js** file: is a configuration file that contains the complete configuration of the site. <br>
-The **/package.json** file: It is a React application. You can install and use any npm package you want on them.<br> 
-The **/sidebar.js** file: used by the documentation to specify the order of the documents in the sidebar.<br>
+The **/blog/** folder: contains the blog's Markdown files, which are used to display different types of content presented by different users. for
+• The **/docs/** folder: contains the Markdown files for the documents section. <br>
+• The **/src/** folder: contains source files with **.js** extension and style sheets (CSS). It is important to mention that any file that is within the path **/src/pages** will be converted within the web page. for
+• The **/static/** folder: it is nothing more than a Static Directory. Any content within here will be copied to the root of the final build directory. Which will be used to display our website on the internet. for
+• The **/docusaurus.config.js** file: is a configuration file that contains the complete configuration of the site. for
+• The **/package.json** file: It is a React application. You can install and use any npm package you want on them. for
+• The **/sidebar.js** file: used by the documentation to specify the order of the documents in the sidebar. <br>
 
 * ## Time to customize our site.📜
 
@@ -116,7 +115,15 @@ inside the file **docusaurus.config.js**.
 
 If we want to add a section so that our documents appear organized by categories, we must add a special section for them. Therefore, all of them will be presented as an organized structure, allowing easy navigation between them. If we want to add new sections we must locate ourselves within the **sidebar.js** file. One of the great features that Docusaurus provides is that we can provide a wide variety of documents that contain different information topics. These documents are stored within the folder named docs. To create documents we must create files that contain the extension **.md**. Once we create our document, Docusaurus will show them instantly. The structure that we must follow to create a document is:
 
-It is very important to keep in mind that every document has a unique **id**. By default, a document id is the name of the document (without the extension) relative to the root docs directory. For example, we will find the next structure in our project like
+```
+---
+id: part1
+title: Guide to organize your trip to Disney World
+---
+INPUT YOUR INFORMATION IN THIS LINE
+```
+
+It is very important to keep in mind that every document has a unique **id**. By default, a document id is the name of the document (without the extension) relative to the root docs directory. For example, we will find the next structure in our project like:
 
 ```
 website # Root directory of your site
@@ -180,7 +187,7 @@ Another way to create **.md** files is to copy one of the files found inside the
 
 * ## Controlling the versions of our project. 🧬
 
-Version control is important to keep our work up to date. That means that many changes or updates can happen every day. Therefore, it is important to keep a good control of the versions that are presented to us or in which we are working. It is important to keep in mind that the updates regarding version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
+Version control is important to keep our work up to date. That means that many changes or updates can happen every day. Thus, it is important to keep a good control of the versions that are presented to us or in which we are working. It is important to keep in mind that the updates about version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
 ```"version": "docusaurus doc:version"```, then we can execute the following command ```npm run version <version>``` where **"<version>"** is the new version number that will be added both for the control of our documents and their structure. That is, our **sidebar**
    
 ```
@@ -212,7 +219,7 @@ website
    
 * ## Creating Blogs with Docusaurus.📰
 
-If all of the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a **Blog** section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**. For example: **/blog/2020-10-05-virtual-disney-world.md**
+If all the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a **Blog** section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**. For example: **/blog/2020-10-05-virtual-disney-world.md**
 
 ```
 ---
@@ -263,7 +270,7 @@ Where:<br>
 ![final settings](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/final%20settings.jpg)
 ###### Figure 13. Adjustment of configuration parameters to build our file locally
 
-Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files locally on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
+Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
 
 ![execution of our build](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/build_execution.jpg)
 ###### Figure 14. Creating our directory called "build"
@@ -291,4 +298,3 @@ Thank you very much for reading this guide and I hope it will be very useful for
 
 * ## License Notice. 📜
 This repository and all its content is licensed by MIT. You can access to read it in this <a href="https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/LICENSE">LINK</a>
-
