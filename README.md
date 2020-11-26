@@ -10,11 +10,13 @@
 [![visualstudio](https://img.shields.io/badge/visual%20studio%20code-download-blue)](https://code.visualstudio.com/)
 [![Docusaurus](https://img.shields.io/badge/docusaurus-download-green)](https://github.com/facebook/docusaurus)
 
-# Table of Contents
-* [Abstract](#Abstract)
-* [Preparation of the environment](#Preparation-of-the-environment)
-* [Installation of Docusaurus version 2](#Installation-of-Docusaurus-version-2)
+## Tabla de contenido
 
+- [Abstract](#Abstract).
+- [Preparation of the environment](#Preparation-of-the-environment).
+- [Installation of Docusaurus version 2](#Installation).
+- [Deploying the application](#Deploying-the-application).
+- [insertar imágenes](#insertar-imagenes).
 
 * ## Abstract. 📔
 
