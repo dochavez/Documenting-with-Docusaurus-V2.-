@@ -12,9 +12,9 @@
 
 ## Tabla de contenido
 
-- [Abstract] (#Abstract).
-- [Preparation of the environment] (#Preparation-of-the-environment).
-- [Installation of Docusaurus version 2] (#Installation).
+- [Abstract](#Abstract).
+- [Preparation of the environment](#Preparation-of-the-environment).
+- [Installation of Docusaurus version 2](#Installation).
 
 
 * ## Abstract. 📔
