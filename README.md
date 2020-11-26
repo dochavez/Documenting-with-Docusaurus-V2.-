@@ -10,14 +10,16 @@
 [![visualstudio](https://img.shields.io/badge/visual%20studio%20code-download-blue)](https://code.visualstudio.com/)
 [![Docusaurus](https://img.shields.io/badge/docusaurus-download-green)](https://github.com/facebook/docusaurus)
 
-## Tabla de contenido
+## Table of Content
 
-- [Abstract](#Abstract).
+### First Part. 
+- [Objective](#Objective).
 - [Preparation of the environment](#Preparation-of-the-environment).
 - [Installation of Docusaurus version 2](#Installation-of-Docusaurus-version-2).
+- [Deploying the Application](#Deploying-the-Application)
+### Second Part.
 
-
-* ## Abstract. 📔
+* ## Objective. 📔
 
 This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page.
 
