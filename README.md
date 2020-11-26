@@ -14,7 +14,7 @@
 
 - [Abstract](#Abstract).
 - [Preparation of the environment](#Preparation-of-the-environment).
-- [Installation of Docusaurus version 2](#Installation).
+- [Installation of Docusaurus version 2](#Installation-of-Docusaurus-version-2).
 
 
 * ## Abstract. 📔
