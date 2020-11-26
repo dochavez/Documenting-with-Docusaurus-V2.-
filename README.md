@@ -12,8 +12,8 @@
 
 # Table of Contents
 * [Abstract](#Abstract)
-* [Preparation-of-the-environment](#Preparation-of-the-environment)
-* [Installation-of-Docusaurus-version-2](#Installation-of-Docusaurus-version-2)
+* [Preparation of the environment](#Preparation-of-the-environment)
+* [Installation of Docusaurus version 2](#Installation-of-Docusaurus-version-2)
 
 
 * ## Abstract. 📔
