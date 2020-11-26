@@ -12,11 +12,10 @@
 
 ## Tabla de contenido
 
-- [Abstract](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-#Abstract).
-- [Preparation of the environment](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-#Preparation-of-the-environment).
-- [Installation of Docusaurus version 2](#Installation).
-- [Deploying the application](#Deploying-the-application).
-- [insertar imágenes](#insertar-imagenes).
+- [Abstract] (#Abstract).
+- [Preparation of the environment] (#Preparation-of-the-environment).
+- [Installation of Docusaurus version 2] (#Installation).
+
 
 * ## Abstract. 📔
 
