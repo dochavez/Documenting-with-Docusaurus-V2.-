@@ -11,9 +11,9 @@
 [![Docusaurus](https://img.shields.io/badge/docusaurus-download-green)](https://github.com/facebook/docusaurus)
 
 # Table of Contents
-
-1. [Abstract](#Abstract)
-2. [Preparation-of-the-environment](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/edit/gh-pages#Preparation-of-the-environment)
+   [abstract](#Abstract)
+   [Preparation](#Preparation-of-the-environment)
+   [Installation](#Installation-of-Docusaurus-version-2)
 
 
 * ## Abstract. 📔
