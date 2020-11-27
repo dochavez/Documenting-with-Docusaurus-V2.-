@@ -18,7 +18,22 @@
 - [Installation of Docusaurus version 2](#Installation-of-Docusaurus-version-2).
 - [Deploying the Application](#Deploying-the-Application)
 ### Second Part.
+- [Structure of the Project](#Structure-of-the-Project).
+- [Color Palette](#Color-Palette).
+- [Navegation Bar and Footer](#Navigation-bar-&&-Footer).
+- [Creating your Documents](#Creating-your-Documents).
+- [Versioning your Project](#Versioning-your-Project).
+- [Blogs](#Blogs).
+### Third Part.
+- [From local to the world](#From-local-to-the-world).
+### Fourth Part.
+- [Demo Online](#From-local-to-the-world).
+- [Video Tutorial (English Version)](#From-local-to-the-world).
+- [Video Tutorial (Spanish Version)](#From-local-to-the-world).
 
+
+
+### First Part.
 * ## Objective. 📔
 
 This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page.
@@ -58,7 +73,7 @@ Documenting is a way of showing what is done so that other people can  learn, ch
 ![Deploy the website](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/deploy.jpg)
 ###### Figure 5. Deployment of our application in our browser through localhost.
 
-* ## Analyzing the structure of the installed project.📜
+* ## Structure of the project.📜
 
 The **/blog/** folder: contains the blog's Markdown files, which are used to display different types of content presented by different users. for
 • The **/docs/** folder: contains the Markdown files for the documents section. <br>
@@ -68,14 +83,7 @@ The **/blog/** folder: contains the blog's Markdown files, which are used to dis
 • The **/package.json** file: It is a React application. You can install and use any npm package you want on them. for
 • The **/sidebar.js** file: used by the documentation to specify the order of the documents in the sidebar. <br>
 
-* ## Time to customize our site.📜
-
-Docusaurus allows us great flexibility and adaptation to our needs. That is why in the file named **docusaurus.config.js** you can modify the **title** and **tagline** directives by putting any name you want. In the case of **favicon** you must add an image with a **.ico** extension. A good resource you can use to create these types of files is by accessing the <a href="https://favicon.io/favicon-converter/" target="_blank">favicon.io</a> website. Once you have the new file, you should copy and replace it inside the **static\img** folder. You can now test the changes by starting the project with the **npm run start** command or you can use **yarn run start** from the terminal. Remember to be inside the folder of the directory that you created in step **number 1** of this tutorial. Go to **http://localhost:3000** to see the changes made.
-
-![title_tagline_favicon](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/title_tagline_favicon.jpg)
-###### Figure 6. Modifying our title, tagline and favicon of our main page.
-
-* ## What is the index.js file for?🏠
+* ## The index.js file. 🏠
 
 The **index.js** file is the home page of our website. In it, the React components that are presented between the navigation bar and the footer of the page are exported. You can create your own components inside the **index.js** file. Since the template includes Style Sheets (CSS) created by the Docusaurus team under a structure named <a href="https://facebookincubator.github.io/infima/" target="_blank">Infima</a>.
 
@@ -119,7 +127,7 @@ inside the file **docusaurus.config.js**.
 ![navbar and footer](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Navbar%20%26%20Footer.jpg)
 ###### Figure 8. Identification of the navigation bar and footer on the main page of our site.
 
-* ## Organizing our Documents. 📚
+* ## Creating your Documents. 📚
 
 If we want to add a section so that our documents appear organized by categories, we must add a special section for them. Therefore, all of them will be presented as an organized structure, allowing easy navigation between them. If we want to add new sections we must locate ourselves within the **sidebar.js** file. One of the great features that Docusaurus provides is that we can provide a wide variety of documents that contain different information topics. These documents are stored within the folder named docs. To create documents we must create files that contain the extension **.md**. Once we create our document, Docusaurus will show them instantly. The structure that we must follow to create a document is:
 
@@ -193,7 +201,7 @@ Another way to create **.md** files is to copy one of the files found inside the
 ![visualizing](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Visualizing%20Blogs.jpg)
 ###### Figure 10. Viewing our created file.
 
-* ## Controlling the versions of our project. 🧬
+* ## Versioning your project. 🧬
 
 Version control is important to keep our work up to date. That means that many changes or updates can happen every day. Thus, it is important to keep a good control of the versions that are presented to us or in which we are working. It is important to keep in mind that the updates about version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
 ```"version": "docusaurus doc:version"```, then we can execute the following command ```npm run version <version>``` where **"<version>"** is the new version number that will be added both for the control of our documents and their structure. That is, our **sidebar**
@@ -225,7 +233,7 @@ website
 
 ```
    
-* ## Creating Blogs with Docusaurus.📰
+* ## Blogs.📰
 
 If all the above seemed very interesting, there is still something else that you should know. Docusaurus allows you to create a **Blog** section for your content. To create a **blog** what you need to do is create a file with a **.md** extension and place it in the folder called **blog**. It is important to mention that the format to establish the file name must be **{date}-{name}.md**. For example: **/blog/2020-10-05-virtual-disney-world.md**
 
@@ -302,7 +310,11 @@ And lastly, if you are using **windows** you can execute the following instructi
 
 Congratulations! 🎉🎊🎉, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/
 
-Thank you very much for reading this guide and I hope it will be very useful for your future projects. Animate, Learn and Share.
+Thank you very much for reading this tutorial and I hope it will be very useful for your future projects. Now you can start to create your own tutorial using Docusaurus.
+
+* ## Resource
+![Demo Online]
+
 
 * ## License Notice. 📜
 This repository and all its content is licensed by MIT. You can access to read it in this <a href="https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/LICENSE">LINK</a>
