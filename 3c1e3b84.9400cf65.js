@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{63:function(n){n.exports=JSON.parse('{"allTagsPath":"/Documenting-with-Docusaurus-V2.-/blog/tags","slug":"shading","name":"shading","count":1,"permalink":"/Documenting-with-Docusaurus-V2.-/blog/tags/shading"}')}}]);

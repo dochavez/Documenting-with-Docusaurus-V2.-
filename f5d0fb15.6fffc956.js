@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{84:function(n){n.exports=JSON.parse('{"allTagsPath":"/Documenting-with-Docusaurus-V2.-/blog/tags","slug":"vulkan","name":"vulkan","count":2,"permalink":"/Documenting-with-Docusaurus-V2.-/blog/tags/vulkan"}')}}]);

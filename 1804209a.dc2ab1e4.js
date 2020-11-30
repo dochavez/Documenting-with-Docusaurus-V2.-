@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{60:function(n){n.exports=JSON.parse('{"allTagsPath":"/Documenting-with-Docusaurus-V2.-/blog/tags","slug":"rendering","name":"rendering","count":2,"permalink":"/Documenting-with-Docusaurus-V2.-/blog/tags/rendering"}')}}]);

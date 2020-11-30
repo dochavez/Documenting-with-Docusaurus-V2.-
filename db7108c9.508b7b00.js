@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{82:function(n){n.exports=JSON.parse('{"allTagsPath":"/Documenting-with-Docusaurus-V2.-/blog/tags","slug":"magic-kingdom","name":"magic kingdom","count":1,"permalink":"/Documenting-with-Docusaurus-V2.-/blog/tags/magic-kingdom"}')}}]);

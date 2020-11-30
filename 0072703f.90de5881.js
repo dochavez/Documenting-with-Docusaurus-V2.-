@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{58:function(s){s.exports=JSON.parse('{"allTagsPath":"/Documenting-with-Docusaurus-V2.-/blog/tags","slug":"virtual-glasses","name":"virtual glasses","count":1,"permalink":"/Documenting-with-Docusaurus-V2.-/blog/tags/virtual-glasses"}')}}]);
