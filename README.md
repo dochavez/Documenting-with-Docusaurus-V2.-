@@ -198,8 +198,6 @@ Another way to create **.md** files is to copy one of the files found inside the
 ![creating our blog](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Blogs.jpg)
 ###### Figure 9. Creating the file called doc4 for the section of our Documents.
 
-![visualizing](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Visualizing%20Blogs.jpg)
-###### Figure 10. Viewing our created file.
 
 * ## Versioning your project. 🧬
 
