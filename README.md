@@ -308,6 +308,21 @@ And lastly, if you are using **windows** you can execute the following instructi
 ![final result](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/live%20_site.jpg)
 ###### Figure 15. Final result of passing our files locally to our repository.
 
+* ## Let's do it.👨‍💻👩‍💻
+
+Now that you know which steps you must follow in order to start using Docusaurus, it is time to create your first site in which you will document the necessary information that you consider will be available to users who visit your site.
+
+Therefore, these are some tips that you can take into account:
+
+1. **Select a topic about which you want to share relevant information**.
+2. **Look for images that are related to the topic.**
+3. **Prepare the information that you are going to make available on your site.**
+4. **Organize the information into categories.**
+5. **Research the relevant ways to proceed with the installation. It is always a good idea to show the installation or configuration process step by step.**
+6. **Remember to keep in mind the type of audience you will be targeting.**
+
+After all the previous aspects, I want to show you a site created as a reference in which Docusaurus was used. The topic for which it will be addressed is about Openxr. If you want to see the demo please access this link.
+
 * ## Hurrah...! We finished the tutorial.😊😊😊😊😊
 
 Congratulations! 🎉🎊🎉, you now know the basics of Docusaurus and have all the tools you need to create a great documentation website. We covered how to create basic documentation, manage different versions, create custom pages, customize the default website, and create blogs. Docusaurus is very flexible and customizable, which allows us to have a wide variety of integrations, search functions, tools for image optimizations, adding embedded videos, and many other things. Thanks to the advantages that Github offers us, you can create your own websites and share them with many users worldwide. If you want to see how my site looks in my repository, you can visit the following link: https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/
