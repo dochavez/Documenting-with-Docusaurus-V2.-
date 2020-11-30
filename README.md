@@ -314,6 +314,7 @@ Thank you very much for reading this tutorial and I hope it will be very useful 
 
 * ## Video🎥
 ![Video Available in English Version] (https://youtu.be/OkMr8jmLyKU)
+![Video Available in Spanish Version] (https://youtu.be/yYkPs3Q9UQE)
 
 
 * ## License Notice. 📜
