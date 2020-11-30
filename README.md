@@ -29,7 +29,7 @@
 ### Fourth Part.
 - [Demo Online](#From-local-to-the-world).
 - [Video Tutorial (English Version)](#Video).
-- [Video Tutorial (Spanish Version)](#From-local-to-the-world).
+- [Video Tutorial (Spanish Version)](#Video).
 
 
 
