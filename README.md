@@ -36,7 +36,7 @@
 ### First Part.
 * ## Objective. 📔
 
-This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page. As an extra information, in order to achieve the goal of help you to create your own website usind docusuarus version 2,  there are two video availables that were created to walkthrough with this tutorial and with this amazing open source tool by facebook. The link of the video you will find at the end of the tutorial.
+This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page. As an extra information, in order to achieve the goal of help you to create your own website usind docusuarus version 2,  there are two video availables that were created to walkthrough with this tutorial and with this amazing open source tool by facebook. The link of the video you will find at the end of the tutorial. Also, you will be available to check our demo.
 
 Documenting is a way of showing what is done so that other people can  learn, change, create, design and share. Although it is important to  mention that documenting can be a complicated task. Which can trigger a  project to reach its full potential. But thanks to Docusaurus our task  can be simplified. With Docusaurus you help us create and maintain websites where we can  display our documentation. Thanks to the implementation of React.js, we  can have support for blogs, pages with custom designs with very elegant  and dynamic styles.
 
@@ -58,14 +58,14 @@ Documenting is a way of showing what is done so that other people can  learn, ch
 
 1. Create a directory to download Docusaurus. In our case we created a folder called **project_docusauv2**. 
 2. Enter the folder created from the preferred terminal (Gitbash, cmd, etc.)
-3. Execute the **npx @docusaurus/init@next init [name] "[template]"** instruction, where [name] should be replaced by whatever name we want and [template] by classic to use the page for default to be uploaded to the website. Docusaurus has the availability of using various templates such as: facebook, bootstrap and so on.
+3. Execute the **npx @docusaurus/init@next init [name] "[template]"** , where [name] should be replaced by any name we want and [template] by "classic" to use the page for default to be uploaded to the website. Docusaurus has the availability of using various templates such as: facebook, bootstrap and so on.
 
 ![installation](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/installation.jpg)
 ###### Figure 3. Downloading the dependencies for the installation.
 
 * ## Deploying the Application. 📦
 
-5. To run Docusaurus we use the following command from the terminal: **npm run start** and our project will be displayed in our web browser with the address **http://localhost:3000**. If you want, you can also run this other command from the terminal: **yarn run start**. In either case, the two commands performing the same operation of displaying our website in the browser that we have by default. Although if you wish you can also use any other browser.
+To run Docusaurus we use the following command from the terminal: **npm run start** or **yarn run start** and our project will be displayed in our web browser with the address **http://localhost:3000**. 
 
 ![command_terminal](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/Command%20from%20the%20terminal.jpg)
 ###### Figure 4. Running our application in the terminal.
@@ -121,7 +121,7 @@ As we mentioned earlier, **Infima** supports Style Sheets (known as CSS) to make
 
 *  ## Navigation bar && Footer. 🗄️
 
-The navigation bar known as **navbar** allows you to add links to other pages within the same site. For this, we must provide a path, although it can also be a URL that takes us to an external link. To modify the navigation bar, we must locate ourselves within the file called **docusaurus.config.js**.Once we are in said file, we locate the corresponding section where all the sections that we wish to incorporate in the navigation bar must be declared.
+The navigation bar known as **navbar** allows you to add links to other pages within the same site. For this, we must provide a path, although it can also be a URL that takes us to an external link. To modify the navigation bar, we must locate ourselves within the file called **docusaurus.config.js**.
 
 On the other hand, like the navigation bar, the **footer** component can be modified. Which is inside the **docusaurus.config.js** file. Links can be added that lead us to other information of interest within the site or they can be external links. Finally, we can say that we can also add text related to copyright at the bottom of the page. This can be found in the section ```copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,```
 inside the file **docusaurus.config.js**.
@@ -131,7 +131,7 @@ inside the file **docusaurus.config.js**.
 
 * ## Creating your Documents. 📚
 
-If we want to add a section so that our documents appear organized by categories, we must add a special section for them. Therefore, all of them will be presented as an organized structure, allowing easy navigation between them. If we want to add new sections we must locate ourselves within the **sidebar.js** file. One of the great features that Docusaurus provides is that we can provide a wide variety of documents that contain different information topics. These documents are stored within the folder named docs. To create documents we must create files that contain the extension **.md**. Once we create our document, Docusaurus will show them instantly. The structure that we must follow to create a document is:
+If we want to add a section so that our documents appear organized by categories, we must add a special section for them. Therefore, all of them will be presented as an organized structure, allowing easy navigation between them. If we want to add new sections we must locate ourselves within the **sidebar.js** file. One of the great features that Docusaurus provides is that we can provide a wide variety of documents that contain different information topics. These documents are stored within the folder named docs. To create documents we must create files that contain the extension **.md**. The structure that we must follow to create a document is:
 
 ```
 ---
@@ -203,7 +203,7 @@ Another way to create **.md** files is to copy one of the files found inside the
 
 * ## Versioning your project. 🧬
 
-Version control is important to keep our work up to date. That means that many changes or updates can happen every day. Thus, it is important to keep a good control of the versions that are presented to us or in which we are working. It is important to keep in mind that the updates about version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
+Version control is important to keep our work up to date. That means that many changes or updates can happen every day. It is important to keep in mind that the updates about version control must be in correspondence with the needs of our documents or our project in general. In other words, only if it is necessary to make a change, we can carry out a series of operations so that everything that we have created in our project and documents is updated as the last version made. To carry out a version control we must locate ourselves within the **package.json** file and add, for example, the following script:
 ```"version": "docusaurus doc:version"```, then we can execute the following command ```npm run version <version>``` where **"<version>"** is the new version number that will be added both for the control of our documents and their structure. That is, our **sidebar**
    
 ```
