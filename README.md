@@ -27,9 +27,9 @@
 ### Third Part.
 - [From local to the world](#From-local-to-the-world).
 ### Fourth Part.
-- <a href="https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/" target="_blank">Demo Online.</a>
-- [Video Tutorial (English Version)](#Video).
-- [Video Tutorial (Spanish Version)](#Video).
+- <a href="https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/" target="_blank">**Demo Online.**</a>
+- <a href="https://www.youtube.com/watch?v=OkMr8jmLyKU" target="_blank">**Video Tutorial (English Version).**</a>
+- <a href="https://www.youtube.com/watch?v=yYkPs3Q9UQE&lc=Ugw5PIpH8ar8dFaky5d4AaABAg" target="_blank">**Video Tutorial (Spanish Version).**</a>
 
 
 
