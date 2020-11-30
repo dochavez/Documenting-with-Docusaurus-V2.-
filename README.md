@@ -288,12 +288,12 @@ Where:<br>
 ![final settings](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/final%20settings.jpg)
 ###### Figure 13. Adjustment of configuration parameters to build our file locally
 
-Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. What any of the above commands does is create a folder with the name "**build**" inside your folder where you have all your project. After that, you must execute the following instruction in the same terminal:
+Before moving your entire project to a **github** repository and create a **github pages** for many users to access from anywhere in the world, you must first build the static files on the computer where you are working. To do that you must execute the following command from the console **npm run build** or **yarn run build**. These commands create a folder with the name "**build**" where you have all your project. After that, you must execute the following instruction in the same terminal:
 
 ![execution of our build](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/build_execution.jpg)
 ###### Figure 14. Creating our directory called "build"
 
-```GIT_USER=<GITHUB_USERNAME> yarn deploy```
+```GIT_USER=<GITHUB_USERNAME> yarn deploy``` Use this command without "<>"
 
 where, "**GITHUB_USERNAME**" is the username that you use directly on Github. Therefore, you should replace it. In case you are using the windows console (cmd) you can execute the following instruction:
 
@@ -321,7 +321,7 @@ Therefore, these are some tips that you can take into account:
 5. **Research the relevant ways to proceed with the installation. It is always a good idea to show the installation or configuration process step by step.**
 6. **Remember to keep in mind the type of audience you will be targeting.**
 
-After all the previous aspects, I want to show you a site created as a reference in which Docusaurus was used. The topic for which it will be addressed is about **Openxr.** If you want to see the demo please access this link.
+After all the previous aspects, I want to show you a site created as a reference in which Docusaurus was used. The topic for which it will be addressed is about **Openxr.** **If you want to see the demo please access this <a href="https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/" target="_blank">LINK</a>.
 
 * ## Hurrah...! We finished the tutorial.😊😊😊😊😊
 
