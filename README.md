@@ -312,9 +312,11 @@ Congratulations! 🎉🎊🎉, you now know the basics of Docusaurus and have al
 
 Thank you very much for reading this tutorial and I hope it will be very useful for your future projects. Now you can start to create your own tutorial using Docusaurus.
 
-* ## Video🎥
+* ## Video🎥🎞️🎥
 
-<a href="https://youtu.be/OkMr8jmLyKU" target="_blank">**Video Available in English Version**</a>
+Check this awesome videos created for you in order to help you with your application using Docusaurus.
+
+<a href="https://youtu.be/OkMr8jmLyKU" target="_blank">**Video Available in English Version**</a><br>
 <a href="https://youtu.be/yYkPs3Q9UQE" target="_blank">**Video Available in Spanish Version**</a>
 
 * ## License Notice. 📜
