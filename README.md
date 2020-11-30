@@ -28,7 +28,7 @@
 - [From local to the world](#From-local-to-the-world).
 ### Fourth Part.
 - [Demo Online](#From-local-to-the-world).
-- [Video Tutorial (English Version)](#From-local-to-the-world).
+- [Video Tutorial (English Version)](#Video).
 - [Video Tutorial (Spanish Version)](#From-local-to-the-world).
 
 
@@ -312,8 +312,8 @@ Congratulations! 🎉🎊🎉, you now know the basics of Docusaurus and have al
 
 Thank you very much for reading this tutorial and I hope it will be very useful for your future projects. Now you can start to create your own tutorial using Docusaurus.
 
-* ## Resource
-![Demo Online]
+* ## Video🎥
+![Video Available in English Version] (https://youtu.be/OkMr8jmLyKU)
 
 
 * ## License Notice. 📜
