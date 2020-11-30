@@ -321,7 +321,7 @@ Therefore, these are some tips that you can take into account:
 5. **Research the relevant ways to proceed with the installation. It is always a good idea to show the installation or configuration process step by step.**
 6. **Remember to keep in mind the type of audience you will be targeting.**
 
-After all the previous aspects, I want to show you a site created as a reference in which Docusaurus was used. The topic for which it will be addressed is about **Openxr.** **If you want to see the demo please access this <a href="https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/" target="_blank">LINK</a>.
+After all the previous aspects, I want to show you a site created as a reference in which Docusaurus was used. The topic for which it will be addressed is about **Openxr.** **If you want to see the demo please access this** <a href="https://dochavez.github.io/Documenting-with-Docusaurus-V2.-/" target="_blank">**LINK**</a>.
 
 * ## Hurrah...! We finished the tutorial.😊😊😊😊😊
 
