@@ -1,5 +1,5 @@
 # Documenting-with-Docusaurus-V2. 
-## Installation and Configuration for Beginners 🚀 <br>
+## Installation, Configuration and Deploy for Beginners 🚀 <br>
 ## Autor: **Danny Chávez**<br>
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/docusaurus.svg?style=social&label=Follow)](https://twitter.com/docusaurus)
@@ -36,7 +36,7 @@
 ### First Part.
 * ## Objective. 📔
 
-This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page.
+This repository was created to make available a tutorial  that is useful for all those people who are lovers of Information  Technologies. The tutorial provides the steps to work with Docusaurus  version 2. Addressing topics from the preparation of the necessary  requirements to proceed with the installation. Then we will address  aspects of the project description, identification of the main  components. And finally we will conclude with the deployment of our work  to create a github page. As an extra information, in order to achieve the goal of help you to create your own website usind docusuarus version 2,  there are two video availables that were created to walkthrough with this tutorial and with this amazing open source tool by facebook. The link of the video you will find at the end of the tutorial.
 
 Documenting is a way of showing what is done so that other people can  learn, change, create, design and share. Although it is important to  mention that documenting can be a complicated task. Which can trigger a  project to reach its full potential. But thanks to Docusaurus our task  can be simplified. With Docusaurus you help us create and maintain websites where we can  display our documentation. Thanks to the implementation of React.js, we  can have support for blogs, pages with custom designs with very elegant  and dynamic styles.
 
@@ -72,6 +72,8 @@ Documenting is a way of showing what is done so that other people can  learn, ch
 
 ![Deploy the website](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/deploy.jpg)
 ###### Figure 5. Deployment of our application in our browser through localhost.
+
+### Second Part.
 
 * ## Structure of the project.📜
 
@@ -261,6 +263,8 @@ This is my first blog on Docusaurus 2.
 ![our blog in web](https://github.com/dochavez/Documenting-with-Docusaurus-V2.-/blob/main/visualizing%20our%20blog%20in%20the%20web%20browser.jpg)
 ###### Figure 12. Viewing our blog in the browser
 
+### Third Part.
+
 * ## From local to the world. 🌎
 
 **IMPORTANT NOTE**⚠️ : before transferring your files locally to your Github repository you must add certain information in the **docusaurus.config.js** file. in the parameters related to **organizationName**, ** projectName **, **url**, **baseUrl**
@@ -310,9 +314,11 @@ Congratulations! 🎉🎊🎉, you now know the basics of Docusaurus and have al
 
 Thank you very much for reading this tutorial and I hope it will be very useful for your future projects. Now you can start to create your own tutorial using Docusaurus.
 
+### Fourth Part.
+
 * ## Video🎥🎞️🎥
 
-Check this awesome videos created for you in order to help you with your application using Docusaurus.
+Check these awesome videos created for you in order to help you with your application using Docusaurus.
 
 <a href="https://youtu.be/OkMr8jmLyKU" target="_blank">**Video Available in English Version**</a><br>
 <a href="https://youtu.be/yYkPs3Q9UQE" target="_blank">**Video Available in Spanish Version**</a>
